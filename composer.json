@@ -1,0 +1,23 @@
+{
+    "name": "xen/test",
+    "autoload": {
+        "psr-4": {
+            "Xen\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IgorSerebryakov",
+            "email": "serebryakov09@mail.ru"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^9.52",
+        "danielstjules/stringy": "^3.1",
+        "nesbot/carbon": "^2.72",
+        "maciejczyzewski/bottomline": "^0.2.3",
+        "funct/funct": "^1.5",
+        "lstrojny/functional-php": "^1.17",
+        "webmozart/assert": "^1.11"
+    }
+}
